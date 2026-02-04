@@ -21,7 +21,7 @@ export default function Navbar() {
     return (
         <nav className="navbar navbar-expand-lg navbar-floating sticky-top">
             <div className="container-fluid">
-                <Link className="navbar-brand fs-4" to={`/?q=All&language=${language}`}>News App</Link>
+                <Link className="navbar-brand fs-4" to={`/?q=All&language=${language}`}>Snap News</Link>
                 <button className="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="material-symbols-outlined text-dark">menu</span>
                 </button>
